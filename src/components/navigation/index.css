@@ -1,0 +1,41 @@
+.nav-container {
+    background-color: transparent;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-item-container {
+    display: flex;
+    margin-left: auto;
+}
+.nav-item {
+    text-decoration: none;
+    padding: 2rem 3rem;
+    border-bottom: 2px solid transparent !important;
+    color: white;
+}
+.logo-header {
+    color: #FDD767;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.line-span {
+    background-color: rgba(85, 87, 99, .6);
+    height: 3px;
+    width: 125px;
+    margin: .25em auto;
+
+}
+.logo-secondary-header {
+    font-family: roboto, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+}
