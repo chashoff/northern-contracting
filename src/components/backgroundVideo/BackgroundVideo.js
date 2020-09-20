@@ -14,8 +14,10 @@ const BackgroundVideo = () => {
             <div className="content">
                 <Nav />
                 <div className="sub-content" >
-                    <h1>Northern Contracting</h1>
-                    <p>Let us tear some shit up...</p>
+                    <h2 style={{fontSize: '2.8rem', marginBottom: '3rem'}}>Northern is here for you and<br />any projects you need.</h2>
+                    <p className="intro-para">Contact us today to show you the northern standard<br /> and everything
+                    we do on the daily. Let us show you what sets<br />us apart from the rest of the industry.</p>
+                    <a className="btn" href="">Learn More</a>
                 </div>
             </div>
         </div>
