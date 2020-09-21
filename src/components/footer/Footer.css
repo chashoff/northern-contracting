@@ -1,0 +1,9 @@
+.container-footer {
+    background-color: black;
+    padding: .5em;
+}
+.copy-text {
+    font-family: Roboto;
+    text-align: center;
+    color: lightgray;
+}
