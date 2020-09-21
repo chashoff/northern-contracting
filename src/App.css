@@ -107,9 +107,11 @@ p {
 	padding: 1em 2em;
 }
 .tri-box-icon {
-	height: 75px;
-	display: block;
-	margin: 0 auto;
+	font-size: 8em;
+	font-family: Roboto;
+	font-weight: bold;
+	color: lightgrey;
+	text-align: center;
 }
 .tri-box-seperator {
 	background-color: rgba(0, 0, 0, .4);

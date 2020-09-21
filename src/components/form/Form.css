@@ -2,6 +2,8 @@
     padding: 3em;
     background-color: #5C5C5C;
     display: flex;
+    background-image: url("/images/truck.png");
+    background-repeat: no-repeat;
 }
 .form-box {
     width: 50%;

@@ -3,6 +3,7 @@ import BackgroundVideo from './components/backgroundVideo/BackgroundVideo';
 import ReactRotatingText from 'react-rotating-text';
 import MapSection from './components/map';
 import FormSection from './components/form/Form';
+import Footer from './components/footer/Footer';
 import './App.css';
 
 function App() {
@@ -26,17 +27,17 @@ function App() {
         </div>
         <div className="tri-container">
           <div className="tri-box">
-            <img className="tri-box-icon" src="/images/calendar.svg" alt="" />
+            <h3 className="tri-box-icon">.01</h3>
             <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
           </div>
           <div className="tri-box-seperator" />
           <div className="tri-box">
-            <img className="tri-box-icon" src="/images/world.svg" alt="" />
+            <h3 className="tri-box-icon">.02</h3>
             <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
           </div>
           <div className="tri-box-seperator" />
           <div className="tri-box">
-            <img className="tri-box-icon" src="/images/calendar.svg" alt="" />
+            <h3 className="tri-box-icon">.03</h3>
             <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
           </div>
         </div>
@@ -55,6 +56,7 @@ function App() {
       </div>
       <MapSection location={location} zoomLevel={17} />
       <FormSection />
+      <Footer />
     </div>
   );
 }
