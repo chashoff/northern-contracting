@@ -6,7 +6,10 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="app-container">
+      <a className="free-quote">Get A Free Quote</a>
+      <App />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

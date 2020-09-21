@@ -1,0 +1,56 @@
+.form-container {
+    padding: 3em;
+    background-color: #5C5C5C;
+    display: flex;
+}
+.form-box {
+    width: 50%;
+}
+.contact-h2 {
+    font-size: 5em;
+    font-weight: bold;
+    text-align: right;
+}
+.form-box {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto auto;
+}
+.contact-input {
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: 2px solid #FED669;
+    border-bottom: 2px solid #FED669;
+    color: white;
+    padding: .5em;
+    margin: .5em 0;
+}
+textarea::-webkit-input-placeholder, input::-webkit-input-placeholder{
+    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:lightgray;
+}
+textarea::-webkit-input-placeholder, input:-moz-placeholder {
+    color: lightgray;
+}
+textarea {
+    color: white;
+}
+.contact-submit-btn {
+    width: 30%;
+    padding: .5em;
+    background-color: transparent;
+    border: 2px solid #FED669;
+    color: lightgrey;
+    margin: 1em auto;
+}
+.contact-h3 {
+    font-size: 1.8em;
+    margin: 0 auto;
+    color: #FED669;
+}

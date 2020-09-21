@@ -56,3 +56,16 @@ h1 {
 h2 {
 	font-size: 1.8rem;
 }
+.app-container {
+	position: absolute;
+	display: flex;
+}
+.free-quote {
+	position: fixed !important;
+	z-index: 100;
+	top: 40vh;
+	right: 0;
+	margin-right: 10px;
+	background-color: #FED669;
+	padding: .5em;
+}

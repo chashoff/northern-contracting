@@ -116,3 +116,42 @@ p {
 	height: 160px;
 	margin: auto 0;
 }
+.about-container {
+	margin-top: 3em;
+	width: 100%;
+	background-color: lightblue;
+	display: flex;
+}
+.about-box {
+	width: 50%;
+	background-color: black;
+}
+.about-box:nth-of-type(1) {
+	background-color: #FED669;
+	padding: 2em;
+}
+.about-box h2 {
+	text-align: center;
+	padding-bottom: .5em;
+}
+.about-box p {
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 1.5em;
+}
+.video {
+	height: 100%;
+	width: 100%;
+}
+.App {
+	position: relative;
+}
+.free-quote {
+	position: absolute;
+	z-index: 100;
+	top: 40vh;
+	right: 0;
+	margin-right: 10px;
+	background-color: #FED669;
+	padding: .5em;
+}
